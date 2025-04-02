@@ -1,13 +1,13 @@
 # Dependencies
-/node_modules
-/.pnp
+node_modules/
+.pnp/
 .pnp.js
 
-# Production build
-/dist
-/build
+# Production
+dist/
+build/
 
-# Development
+# Environment
 .env
 .env.local
 .env.development.local
@@ -20,21 +20,24 @@ yarn-debug.log*
 yarn-error.log*
 
 # Editor directories and files
-.idea
-.vscode
+.idea/
+.vscode/
 *.swp
 *.swo
 .DS_Store
 
+# Docker volumes
+mongodb_data/
+
 # Cache
-.cache
-.parcel-cache
+.cache/
+.parcel-cache/
 
 # Optional npm cache directory
-.npm
+.npm/
 
 # Optional eslint cache
-.eslintcache
+.eslintcache/
 
 # Optional REPL history
 .node_repl_history
