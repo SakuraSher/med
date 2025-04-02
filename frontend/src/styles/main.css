@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add a test class to verify CSS is working */
+.test-style {
+    @apply text-red-500 font-bold;
+}
+
+@layer base {
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer components {
+  .header-shadow {
+    @apply shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1),0_2px_4px_-1px_rgba(0,0,0,0.06)];
+  }
+  
+  .service-card {
+    @apply bg-gray-800 rounded-lg shadow-md p-4 flex flex-col justify-between;
+  }
+  
+  .service-card h3 {
+    @apply text-lg font-semibold text-white mb-2;
+  }
+  
+  .service-card p {
+    @apply text-gray-300 text-sm;
+  }
+  
+  .primary-button {
+    @apply bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2.5 px-6 rounded-full transition-colors duration-300;
+  }
+  
+  .secondary-button {
+    @apply bg-gray-700 hover:bg-gray-600 text-blue-400 font-semibold py-2.5 px-6 rounded-full border border-blue-500 transition-colors duration-300;
+  }
+  
+  .section-title {
+    @apply text-2xl font-bold text-white text-center mb-8;
+  }
+  
+  .dark-bg {
+    @apply bg-gray-900;
+  }
+} 

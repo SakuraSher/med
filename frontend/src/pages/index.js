@@ -1,0 +1,9 @@
+export { default as FullBodyCheckup } from './FullBodyCheckup';
+export { default as BloodTests } from './BloodTests';
+export { default as HomeCollection } from './HomeCollection';
+export { default as SpecializedPanels } from './SpecializedPanels';
+export { default as Tests } from './Tests';
+export { default as Packages } from './Packages';
+export { default as Cities } from './Cities';
+export { default as Offers } from './Offers';
+export { default as AboutUs } from './AboutUs'; 
