@@ -64,20 +64,30 @@ const MedimaaInspiredUI = () => {
         <Router>
             <div className="bg-gray-900 min-h-screen">
                 <h1 className="text-white text-3xl font-bold text-center py-10">
-                    Welcome to Medimaa
+                    <div className="text-center">
+                        <h1 className="text-3xl font-bold text-Green mb-1">
+                            Medimaa
+                            <span className="block text-sm font-normal text-gray-400 mt-1">Your Trusted Healthcare Partner</span>
+                        </h1>
+                    </div>
                 </h1>
+               
                 {/* Header */}
                 <header className="bg-gray-800 sticky top-0 z-50 shadow-md">
                     <div className="container mx-auto px-4 py-3 flex justify-between items-center">
                         <div className="logo">
                             <a href="/" className="flex items-center">
+                               {/* 
                                 <img
-                                    src="https://www.healthians.com/images/healthians-logo.svg"
+                                    src="https://placehold.co/40x40?text=M"
                                     alt="Medimaa Logo"
                                     className="mr-2 h-8"
                                 />
+                                  */}
                                 <span className="font-bold text-xl text-blue-400">Medimaa</span>
+                               
                             </a>
+                              
                         </div>
                         <nav className="hidden md:flex space-x-6">
                             <Link
